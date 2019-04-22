@@ -21,7 +21,7 @@ namespace bengbeng\tools\upload;
  * @property string $domain
  * @property string $driver 文件上传驱动类型(默认为本地上传类型，目前支持本地及UPyun)，扩展请详见开发说明
  * @property array $driverConfig 按驱动类型的配置文件(根据实际第三方服务器配置进行设置)
- * @package bengbeng\framework\components\handles
+ * @package bengbeng\tools\handles
  */
 
 class UploadHandle

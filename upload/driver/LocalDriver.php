@@ -10,7 +10,7 @@
  * @update 2019/4/22
  */
 
-namespace bengbeng\tools\upload;
+namespace bengbeng\tools\upload\driver;
 
 use yii\imagine\Image;
 

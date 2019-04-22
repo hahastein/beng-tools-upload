@@ -9,7 +9,7 @@
  * @date 2019/4/21 0:33
  */
 
-namespace bengbeng\tools\upload;
+namespace bengbeng\tools\upload\driver;
 
 /**
  * Class BaseUploadDriver
@@ -21,7 +21,7 @@ namespace bengbeng\tools\upload;
  * @property boolean $replace 是否替换存在的文件，默认不替换
  * @property boolean|array $thumbnail 是否创建缩略图，缩略图参数配置如下 zoom:比例 width:宽度 height:高度
  * @property array $sdkConfig sdk的服务配置(非本地上传使用)
- * @package bengbeng\tools\upload
+ * @package bengbeng\tools\upload\driver
  */
 class BaseUploadDriver
 {

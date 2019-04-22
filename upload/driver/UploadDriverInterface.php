@@ -9,12 +9,12 @@
  * @date 2019/4/19 0:21
  */
 
-namespace bengbeng\tools\upload;
+namespace bengbeng\tools\upload\driver;
 
 /**
  * Interface UploadDriverInterface
  * @property array $mimes
- * @package bengbeng\tools\upload
+ * @package bengbeng\tools\upload\driver
  */
 interface UploadDriverInterface
 {

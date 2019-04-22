@@ -51,7 +51,7 @@ class UploadHandle
 
     private $_files;
     /**
-     * @var \bengbeng\tools\upload\UploadDriverInterface $uploader
+     * @var \bengbeng\tools\upload\driver\UploadDriverInterface $uploader
      */
     private $uploader;
 
@@ -148,7 +148,7 @@ class UploadHandle
     private function setDriver(){
         $driver = $this->driver;
         $config = $this->driverConfig;
-        $class = strpos($driver,'\\')? $driver : '\\bengbeng\\tools\\upload\\'.ucfirst(strtolower($driver)).'Driver';
+        $class = strpos($driver,'\\')? $driver : '\\bengbeng\\tools\\upload\\driver\\'.ucfirst(strtolower($driver)).'Driver';
         if(class_exists($class)){
             $this->uploader = new $class($config);
             $this->uploader->mimes = $this->mimes;

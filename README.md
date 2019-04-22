@@ -1,7 +1,7 @@
 #BengBeng Framework - Upload组件使用说明
 ======================================
 * Composer
-    > composer require bengbeng\tools-upload (未开放)
+    > composer require bengbengsoft/beng-tools-upload
 * 命名空间
     > use bengbeng\tools\upload\UploadHandle;
 * 初始化

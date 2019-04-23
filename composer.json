@@ -20,16 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "bengbeng\\framework\\": ""
-    }
-  },
-  "extra": {
-    "asset-installer-paths": {
-      "npm-asset-library": "vendor/npm",
-      "bower-asset-library": "vendor/bower"
-    },
-    "branch-alias": {
-      "dev-master": "2.x-dev"
+      "bengbeng\\tools\\": ""
     }
   }
 }

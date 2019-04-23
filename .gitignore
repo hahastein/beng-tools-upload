@@ -6,8 +6,8 @@ protected/data/*.db
 themes/classic/views/
 *.sublime-project
 *.sublime-workspace
-.idea
-nbproject
+/.idea
+/nbproject
 /nbproject/private/
 Thumbs.db
 /vendor/*
